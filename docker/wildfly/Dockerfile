@@ -2,6 +2,7 @@ FROM jboss/wildfly:16.0.0.Final
 
 RUN /opt/jboss/wildfly/bin/add-user.sh admin admin1234 --silent
 COPY ./target/logging-test.war /opt/jboss/wildfly/standalone/deployments/
+COPY ./docker/log4j2.xml /etc/logging-test/
 
 EXPOSE 8080
 
