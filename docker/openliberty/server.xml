@@ -21,6 +21,6 @@
         <user name="nonadmin" password="guest" />
     </basicRegistry>
     
-<!--    <logging consoleSource="message,trace" traceSpecification="com.seekingbinary.*=FINE" consoleFormat="json"/>-->
-    <logging consoleSource="message,trace" traceSpecification="com.seekingbinary.*=FINE"/>
+    <logging consoleSource="message,trace" traceSpecification="com.seekingbinary.*=ALL" consoleFormat="json"/>
+    <!--<logging consoleSource="message,trace" traceSpecification="com.seekingbinary.*=ALL"/>-->
 </server>
