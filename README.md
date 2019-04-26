@@ -29,7 +29,7 @@ centralised.
 ## Payara
 ```
 > docker build -t <tag> -f docker/payara/Dockerfile .
-> docker run -p 8080:8080 -t <tag>
+> docker run -p 8080:8080 -p 4848:4848 -t <tag>
 ```
 
 # Test
