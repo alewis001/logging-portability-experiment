@@ -16,7 +16,11 @@ public class PingLogger {
   @Produces(MediaType.TEXT_PLAIN)
   public String ping() {
     LOG.debug("pong: Debug");
+    LOG.error("pong: Error");
+    LOG.fatal("pong: Fatal");
     LOG.info("pong: Info");
+    LOG.trace("pong: Trace");
+    LOG.warn("pong: Warn");
     return "pong";
   }
 }
