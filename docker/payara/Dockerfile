@@ -1,4 +1,4 @@
-FROM payara/server-full:5.191
+FROM payara/server-full:5.184
 
 COPY ./target/logging-test.war $DEPLOY_DIR
 
